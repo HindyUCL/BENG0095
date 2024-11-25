@@ -1,0 +1,30 @@
+Data Transformation & Exploration: 
+
+- Dataset merging
+- Assign numerical values to placeholder values in the fields
+- Balancing the data
+- Resampling if needed (for categories with few observations)
+
+- Summary of Stats
+- Imputation
+- Distribution plots for features
+- AutoML for feature engineering
+- Manual feature engineering
+
+Preparation for training: 
+- shuffle the data
+- split in train, validation, and test sets
+- make sure all are balanced in terms of categories
+
+Model Tested: 
+- Logistic Regression
+- XGBoost
+- random Forest (not used because lacks explanability)
+
+Model created: (creative part using keras or PyTorch)
+- Super learners out of trees and linear regressors
+- ...
+
+Evaluation Metrics and Plots:
+
+- Confusion Matrix with particular ephasis False Negative, etc. 
