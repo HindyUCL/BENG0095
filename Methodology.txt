@@ -4,6 +4,9 @@ Data Transformation & Exploration:
 - Assign numerical values to placeholder values in the fields
 - Balancing the data
 - Resampling if needed (for categories with few observations)
+- PCA to select teh most important features
+- Impute using semantic culstering for (text data) and clustering for numbers
+- Feature engineering (create new features out of other columns)
 
 - Summary of Stats
 - Imputation
@@ -18,6 +21,7 @@ Preparation for training:
 
 Model Tested: 
 - Logistic Regression
+- LightGBM
 - XGBoost
 - random Forest (not used because lacks explanability)
 
