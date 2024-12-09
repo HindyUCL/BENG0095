@@ -24,6 +24,7 @@ Model Tested:
 - LightGBM
 - XGBoost
 - random Forest (not used because lacks explanability)
+- SVM (c.f. Raph's paper)
 
 Model created: (creative part using keras or PyTorch)
 - Super learners out of trees and linear regressors
